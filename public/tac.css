@@ -70,5 +70,9 @@ p{
 
 #but {
     box-sizing: border-box;
-    
+    width: 95px;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    margin-left: auto;
+    border-radius: 8px;
 }
