@@ -33,37 +33,37 @@ function myfunc(){
 
         b1btn.style.color ="red";
         b2btn.style.color ="red";
-        b3btn.style.color ="red";
-}  
-else if ((b1=="x"|| b1="X")&&(b4== "x" ||b4=="x")&&(b7=="x||b7=="X"))
-        document.getElementById("print")
-             .innerHTML ="Player X won";
-        b2btn.disabled = true;
-        b3btn.disabled = true;
-        b5btn.disabled = true;
-        b6btn.disabled = true;
-        b8btn.disabled = true;
-        b9btn.disabled = true;
+        b3btn.style.color ="red";  
+    }  
+    else if ((b1=="x"|| b1="X")&&(b4== "x" ||b4=="x")&&(b7=="x||b7=="X"))
+             document.getElementById("print")
+                .innerHTML ="Player X won";
+             b2btn.disabled = true;
+             b3btn.disabled = true;
+             b5btn.disabled = true;
+             b6btn.disabled = true;
+             b8btn.disabled = true;
+             b9btn.disabled = true;
 
-        b1btn.style.color ="red";
-        b4btn.style.color ="red";
-        b7btn.style.color ="red";
-}
-esle if ((b7=="x"|| b7="X")&&(b8== "x" ||b8=="x")&&(b9=="x||b9=="X"))
-        document.getElementById("print")
-             .innerHTML ="Player X won";
-        b1btn.disabled = true;
-        b2btn.disabled = true;
-        b3btn.disabled = true;
-        b4btn.disabled = true;
-        b5btn.disabled = true;
-        b6btn.disabled = true;
+             b1btn.style.color ="red";
+             b4btn.style.color ="red";
+             b7btn.style.color ="red";
+    }
+    esle if ((b7=="x"|| b7="X")&&(b8== "x" ||b8=="x")&&(b9=="x||b9=="X"))
+              document.getElementById("print")
+                .innerHTML ="Player X won";
+             b1btn.disabled = true;
+             b2btn.disabled = true;
+             b3btn.disabled = true;
+             b4btn.disabled = true;
+             b5btn.disabled = true;
+             b6btn.disabled = true;
 
-        b7btn.style.color ="red";
-        b8btn.style.color ="red";
-        b9btn.style.color ="red";
-}
-esle if ((b3=="x"|| b3="X")&&(b6== "x" ||b6=="x")&&(b9=="x||b9=="X"))
+             b7btn.style.color ="red";
+             b8btn.style.color ="red";
+            b9btn.style.color ="red";
+    }
+    esle if ((b3=="x"|| b3="X")&&(b6== "x" ||b6=="x")&&(b9=="x||b9=="X"))
         document.getElementById("print")
             .innerHTML ="Player X won";
         b1btn.disabled = true;
@@ -133,9 +133,14 @@ else if ((b4=="x"|| b4="X")&&(b5== "x" ||b5=="x")&&(b8=="x||b8=="X"))
         b5btn.style.color ="red";
         b6btn.style.color ="red";
 }
-if ((b1=="x"|| b1="X")&&(b2== "x" ||b2=="x")&&(b3=="x||b3=="X"))
+
+
+
+
+
+else if ((b1=="x"|| b1="X")&&(b2== "x" ||b2=="x")&&(b3=="x||b3=="X"))
         document.getElementById("print")
-            .innerHTML ="Player X won";
+            .innerHTML ="Player O won";
         b4btn.disabled = true;
         b5btn.disabled = true;
         b6btn.disabled = true;
@@ -149,7 +154,7 @@ if ((b1=="x"|| b1="X")&&(b2== "x" ||b2=="x")&&(b3=="x||b3=="X"))
 }  
 else if ((b1=="x"|| b1="X")&&(b4== "x" ||b4=="x")&&(b7=="x||b7=="X"))
         document.getElementById("print")
-             .innerHTML ="Player X won";
+             .innerHTML ="Player O won";
         b2btn.disabled = true;
         b3btn.disabled = true;
         b5btn.disabled = true;
@@ -163,7 +168,7 @@ else if ((b1=="x"|| b1="X")&&(b4== "x" ||b4=="x")&&(b7=="x||b7=="X"))
 }
 esle if ((b7=="x"|| b7="X")&&(b8== "x" ||b8=="x")&&(b9=="x||b9=="X"))
         document.getElementById("print")
-             .innerHTML ="Player X won";
+             .innerHTML ="Player O won";
         b1btn.disabled = true;
         b2btn.disabled = true;
         b3btn.disabled = true;
@@ -177,7 +182,7 @@ esle if ((b7=="x"|| b7="X")&&(b8== "x" ||b8=="x")&&(b9=="x||b9=="X"))
 }
 esle if ((b3=="x"|| b3="X")&&(b6== "x" ||b6=="x")&&(b9=="x||b9=="X"))
         document.getElementById("print")
-            .innerHTML ="Player X won";
+            .innerHTML ="Player O won";
         b1btn.disabled = true;
         b2btn.disabled = true;
         b4btn.disabled = true;
@@ -191,7 +196,7 @@ esle if ((b3=="x"|| b3="X")&&(b6== "x" ||b6=="x")&&(b9=="x||b9=="X"))
 }
 else if ((b1=="x"|| b1="X")&&(b5== "x" ||b5=="x")&&(b9=="x||b9=="X"))
         document.getElementById("print")
-            .innerHTML ="Player X won";
+            .innerHTML ="Player O won";
         b2btn.disabled = true;
         b3btn.disabled = true;
         b4btn.disabled = true;
@@ -205,7 +210,7 @@ else if ((b1=="x"|| b1="X")&&(b5== "x" ||b5=="x")&&(b9=="x||b9=="X"))
 }
 else if ((b3=="x"|| b3="X")&&(b5== "x" ||b5=="x")&&(b7=="x||b7=="X"))
         document.getElementById("print")
-            .innerHTML ="Player X won";
+            .innerHTML ="Player O won";
         b1btn.disabled = true;
         b2btn.disabled = true;
         b4btn.disabled = true;
@@ -219,7 +224,7 @@ else if ((b3=="x"|| b3="X")&&(b5== "x" ||b5=="x")&&(b7=="x||b7=="X"))
 }
 else if ((b2=="x"|| b2="X")&&(b5== "x" ||b5=="x")&&(b8=="x||b8=="X"))
         document.getElementById("print")
-            .innerHTML ="Player X won";
+            .innerHTML ="Player O won";
         b1btn.disabled = true;
         b3btn.disabled = true;
         b4btn.disabled = true;
@@ -233,7 +238,7 @@ else if ((b2=="x"|| b2="X")&&(b5== "x" ||b5=="x")&&(b8=="x||b8=="X"))
 }
 else if ((b4=="x"|| b4="X")&&(b5== "x" ||b5=="x")&&(b8=="x||b8=="X"))
         document.getElementById("print")
-            .innerHTML ="Player X won";
+            .innerHTML ="Player O won";
         b1btn.disabled = true;
         b2btn.disabled = true;
         b3btn.disabled = true;
