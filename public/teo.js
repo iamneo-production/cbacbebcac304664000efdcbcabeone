@@ -351,6 +351,11 @@ function myfunc(){
         
                  b6btn.style.color ="red";
 }
-
+else if((b1=="x"|| b1=="0") && (b2=="X" || b2=="0")&&(b3=="x"|| b3=="o"))&&
+    (b4=="x"|| b4=="0") && (b5=="X" || b5=="0")&&(b6=="x"|| b6=="o"))&&
+    (b7=="x"|| b7=="0") && (b8=="X" || b8=="0")&&(b9=="x"|| b9=="o"))&{
+    document.getElementById("print")
+    .innerHTML=
+    }
 
 
