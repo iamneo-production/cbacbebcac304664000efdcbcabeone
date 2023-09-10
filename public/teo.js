@@ -351,11 +351,26 @@ function myfunc(){
         
                  b6btn.style.color ="red";
 }
-else if((b1=="x"|| b1=="0") && (b2=="X" || b2=="0")&&(b3=="x"|| b3=="o"))&&
-    (b4=="x"|| b4=="0") && (b5=="X" || b5=="0")&&(b6=="x"|| b6=="o"))&&
-    (b7=="x"|| b7=="0") && (b8=="X" || b8=="0")&&(b9=="x"|| b9=="o"))&{
+else if((b1=="x"|| b1=="O") && (b2=="X" || b2=="O")&&(b3=="x"|| b3=="o"))&&
+    (b4=="x"|| b4=="O") && (b5=="X" || b5=="O")&&(b6=="x"|| b6=="O"))&&
+    (b7=="x"|| b7=="O") && (b8=="X" || b8=="O")&&(b9=="x"|| b9=="O"))&{
     document.getElementById("print")
-    .innerHTML=
+       .innerHTML="Match Tie";
     }
-
+     else {
+        if(flag==1){
+            document.getElementById("Print")
+                .innerHTML = "Player X Turn";
+        }
+         else{
+            document.getElementById("print")
+            .innerHTML = "Player O won"
+         }
+     }
+}
+function myfunc_2(){
+    location.reload();
+    b1=b2=b3=b4=b5=b6=b7=b8=b9= " ";
+    
+}
 
