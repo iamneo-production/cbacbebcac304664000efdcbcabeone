@@ -21,7 +21,7 @@ function myfunc(){
     b8btn = document.getElementById("b8");
     b9btn = document.getElementById("b9");
 
-    if ((b1=="x"|| b1="X")&&(b2== "x" ||b2=="x")&&(b3=="x||b3=="X"))
+    if ((b1=="x"|| b1="X") && (b2== "x" ||b2=="x")&&(b3=="x||b3=="X"))
         document.getElementById("print")
             .innerHTML ="Player X won";
         b4btn.disabled = true;
